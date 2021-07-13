@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a09879e580a04b568878a214f7bd66e6" Name="Diagrama1" ZoomLevel="94">
+        <EntityTypeShape EntityType="BDClubSociosModel.Actividad" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDClubSociosModel.ActividadXSocio" Width="1.5" PointX="5.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDClubSociosModel.Arancel" Width="1.5" PointX="5.25" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDClubSociosModel.CuotaXSocio" Width="1.5" PointX="5.25" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDClubSociosModel.Localidad" Width="1.5" PointX="0.75" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDClubSociosModel.Responsable" Width="1.5" PointX="0.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDClubSociosModel.Socio" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BDClubSociosModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="2.375" IsExpanded="true" />
+        <AssociationConnector Association="BDClubSociosModel.FK_Actividad_Responsable" ManuallyRouted="false" />
+        <AssociationConnector Association="BDClubSociosModel.FK_ActividadXSocio_Actividad" ManuallyRouted="false" />
+        <AssociationConnector Association="BDClubSociosModel.FK_Arancel_Actividad" ManuallyRouted="false" />
+        <AssociationConnector Association="BDClubSociosModel.FK_ActividadXSocio_Socio" ManuallyRouted="false" />
+        <AssociationConnector Association="BDClubSociosModel.FK_CuotaXSocio_Socio" ManuallyRouted="false" />
+        <AssociationConnector Association="BDClubSociosModel.FK_Socio_Localidad" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="BDClubSociosModel.vListarXNomYApe" Width="1.5" PointX="10.641567030289009" PointY="21.942690799917415" />
+        <EntityTypeShape EntityType="BDClubSociosModel.vSociosActivos" Width="1.5" PointX="7.8904297127809517" PointY="27.136147973656723" />
+        <EntityTypeShape EntityType="BDClubSociosModel.Pago" Width="1.5" PointX="11.125" PointY="8.125" />
+        <AssociationConnector Association="BDClubSociosModel.FK_Pago_CuotaXSocio" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
